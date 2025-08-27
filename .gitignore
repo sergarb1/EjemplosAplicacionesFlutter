@@ -1,0 +1,132 @@
+# ============================================
+# GITIGNORE PARA REPOSITORIO MULTIPROYECTO
+# ============================================
+
+# ARCHIVOS DE SISTEMA
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# ARCHIVOS TEMPORALES
+**/*.tmp
+**/*.temp
+**/*.bak
+**/*.backup
+**/*.swp
+**/*.swo
+**/*~
+
+# LOGS DE APLICACIÓN
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/lerna-debug.log*
+
+# DEPENDENCIAS (para todos los proyectos)
+**/node_modules/
+**/bower_components/
+**/.pnp
+.pnp.js
+
+# CARPETAS DE BUILD/DISTRIBUCIÓN
+**/build/
+**/dist/
+**/out/
+**/.next/
+**/.nuxt/
+**/.output/
+**/target/
+**/coverage/
+
+# CARPETAS DE CACHÉ
+**/.cache/
+**/.parcel-cache/
+**/.sass-cache/
+**/.eslintcache
+**/__pycache__/
+
+# ARCHIVOS DE ENTORNO (seguridad - para todos los proyectos)
+**/.env
+**/.env.local
+**/.env.*.local
+**/.env.production
+**/.env.development
+*.env
+
+# ARCHIVOS DE CONFIGURACIÓN DE EDITORES
+# VS Code (excluye configuración personal)
+**/.vscode/
+!.vscode/example.settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ/Android Studio
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+
+# ARCHIVOS DE RUNTIME
+**/*.class
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.python-version
+
+# PAQUETES COMPILADOS
+**/*.jar
+**/*.war
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.7z
+
+# BASE DE DATOS
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# ============================================
+# CONFIGURACIÓN ESPECÍFICA PARA FLUTTER
+# ============================================
+
+# Archivos y directorios de Flutter/Dart
+**/doc/api/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/ios/Flutter/.last_build_id
+**/app.*.symbols
+**/app.*.map.json
+
+# Archivos específicos de Flutter para iOS
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Archivos específicos de Flutter para Android
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# ============================================
+# EXCEPCIONES (archivos que SÍ queremos incluir)
+# ============================================
+
+# Permite archivos .gitkeep en carpetas vacías
+!**/.gitkeep
+
+# Permite archivos de configuración de ejemplo
+!**/config.example.json
+!**/.env.example
+
+# ============================================
+# CARPETAS DE PROYECTOS ESPECÍFICOS
+# (Si necesitas excluir carpetas específicas)
+# ============================================
+
+# Ejemplo: Si quisieras excluir una carpeta específica de un proyecto
+# /nombre_proyecto/carpeta_a_excluir/
