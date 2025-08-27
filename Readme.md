@@ -73,8 +73,9 @@ Se recomienda seguir este orden para el aprendizaje progresivo:
 2. **`curriculum`** → Diseño responsive y layouts complejos
 3. **`lista_tareas_filtros`** → Gestión de estado avanzada
 4. **`lista_tareas_firebase`** → Integración con backend completo
-5. **`juego_memoria`** → Animaciones y lógica de aplicación
-6. **`consumo_api`** → Comunicación con servicios externos
+5. **`dados_cuentacuentos`** → Animaciones y lógica de aplicación
+6. **`juego_memoria`** → Animaciones y lógica de aplicación
+7. **`consumo_api`** → Comunicación con servicios externos
 
 ## 👨‍💻 Autor
 

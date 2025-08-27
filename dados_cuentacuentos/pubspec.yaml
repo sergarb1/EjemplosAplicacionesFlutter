@@ -1,0 +1,34 @@
+# pubspec.yaml
+# Configura dependencias, assets y fuentes.
+# Corre `flutter pub get` tras editar.
+
+name: dados_cuentacuentos
+description: App para tirar dados y contar historias.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0 # Gestión de estado.
+  go_router: ^16.2.0 # Navegación.
+  shared_preferences: ^2.0.0 # Persistencia.
+  vibration: ^3.1.3 # Vibración en móviles.
+  google_fonts: ^6.2.1 # Fuentes modernas.
+  url_launcher: ^6.3.0 # Para abrir enlaces en el pie de página.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0 # Linting.
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # Contiene logo.png y icon1.png a icon20.png.
