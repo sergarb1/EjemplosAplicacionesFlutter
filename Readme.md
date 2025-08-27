@@ -38,12 +38,12 @@ Cada proyecto ejemplifica conceptos teóricos explicados en los apuntes, proporc
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/flutter-ejemplos-interfaces.git
+   git clone https://github.com/sergarb1/EjemplosAplicacionesFlutter
    ```
 
 2. **Navega a la carpeta del proyecto que te interese:**
    ```bash
-   cd flutter-ejemplos-interfaces/lista_tareas_firebase
+   cd EjemplosAplicacionesFlutter/lista_tareas_simple
    ```
 
 3. **Instala las dependencias:**
