@@ -1,0 +1,33 @@
+# pubspec.yaml
+# Configura dependencias y assets.
+# Corre `flutter pub get` tras editar.
+
+name: reversi_game
+description: Juego Reversi en Flutter.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2 # Gestión de estado.
+  go_router: ^16.2.0 # Navegación.
+  shared_preferences: ^2.3.2 # Persistencia local.
+  vibration: ^3.1.3 # Vibración (versión reciente a 2025).
+  url_launcher: ^6.3.0 # Para enlace a GitHub en about_page.dart.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0 # Linting.
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ # Contiene logo.png,  black_piece.png, white_piece.png.

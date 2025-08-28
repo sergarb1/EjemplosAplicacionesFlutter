@@ -75,7 +75,8 @@ Se recomienda seguir este orden para el aprendizaje progresivo:
 4. **`lista_tareas_firebase`** → Integración con backend completo
 5. **`dados_cuentacuentos`** → Animaciones y lógica de aplicación
 6. **`juego_memoria`** → Animaciones y lógica de aplicación
-7. **`consumo_api`** → Comunicación con servicios externos
+7. **`juego_reversi`** → Animaciones y lógica de aplicación
+8. **`consumo_api`** → Comunicación con servicios externos
 
 ## 👨‍💻 Autor
 
