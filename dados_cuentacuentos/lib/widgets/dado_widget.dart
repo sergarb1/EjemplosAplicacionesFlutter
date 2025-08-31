@@ -46,7 +46,7 @@ class DadoWidgetState extends State<DadoWidget> {
       duration: const Duration(milliseconds: 200), // Duración de la animación
       child: Container(
         decoration: BoxDecoration(
-          color: Theme.of(context).colorScheme.surface, // Color de fondo del tema
+          color: Colors.white, // Color de fondo del tema blanco
           borderRadius: BorderRadius.circular(8), // Bordes redondeados
           boxShadow: const [
             BoxShadow(color: Colors.black12, blurRadius: 2), // Sombra sutil
