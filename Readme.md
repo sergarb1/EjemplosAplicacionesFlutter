@@ -1,5 +1,3 @@
-Claro, aquí tienes un archivo README.md completo y profesional para tu repositorio de ejemplos de Flutter:
-
 # 🚀 Ejemplos de Flutter - Desarrollo de Interfaces
 
 [![FPInfor](https://img.shields.io/badge/FP-Informática-2ea44f?style=for-the-badge)](#)
@@ -15,16 +13,6 @@ Estos ejemplos están directamente relacionados con los apuntes completos dispon
 
 Cada proyecto ejemplifica conceptos teóricos explicados en los apuntes, proporcionando implementaciones prácticas y funcionales.
 
-## 🗂️ Estructura del Repositorio
-
-| Carpeta | Descripción |
-|---------|-------------|
-| **`consumo_api/`** | Ejemplo de consumo de API REST |
-| **`curriculum/`** | App de CV interactivo |
-| **`juego_memoria/`** | Juego de memoria interactivo |
-| **`lista_tareas_simple/`** | TodoApp básico |
-| **`lista_tareas_filtros/`** | TodoApp con filtros |
-| **`lista_tareas_firebase/`** | TodoApp con Firebase |
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -72,11 +60,12 @@ Se recomienda seguir este orden para el aprendizaje progresivo:
 1. **`lista_tareas_simple`** → Conceptos básicos de estado
 2. **`curriculum`** → Diseño responsive y layouts complejos
 3. **`lista_tareas_filtros`** → Gestión de estado avanzada
-4. **`lista_tareas_firebase`** → Integración con backend completo
-5. **`dados_cuentacuentos`** → Animaciones y lógica de aplicación
-6. **`juego_memoria`** → Animaciones y lógica de aplicación
-7. **`juego_reversi`** → Animaciones y lógica de aplicación
-8. **`consumo_api`** → Comunicación con servicios externos
+4. **`cocina_facil`** → Gestión de estado avanzada
+5. **`lista_tareas_firebase`** → Integración con backend completo
+6. **`dados_cuentacuentos`** → Animaciones y lógica de aplicación
+7. **`juego_memoria`** → Animaciones y lógica de aplicación
+8. **`juego_reversi`** → Animaciones y lógica de aplicación
+9. **`consumo_api`** → Comunicación con servicios externos
 
 ## 👨‍💻 Autor
 

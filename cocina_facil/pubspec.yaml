@@ -1,0 +1,24 @@
+name: cocina_facil
+description: Aplicación de gestión de recetas con un diseño bonito y responsivo.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0 # Gestión de estado con Provider.
+  image_picker: ^1.1.0 # Selección de imágenes en web y nativo.
+  go_router: ^14.2.0 # Navegación declarativa.
+  image: ^4.0.0 # Procesamiento de imágenes para redimensionamiento.
+  path_provider: ^2.0.0 # Acceso a directorios temporales.
+  cupertino_icons: ^1.0.2 # Iconos de estilo iOS.
+  shared_preferences: ^2.0.0 # Persistencia de datos.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Linting para mantener código limpio.
+flutter:
+  uses-material-design: true # Habilita Material Design con Roboto embebido.
+  assets:
+    - assets/images/logo.png # Logo de la aplicación "Cocina Fácil".
