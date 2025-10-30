@@ -1,0 +1,77 @@
+{
+  "name": "Juan Pérez García",
+  "title": "Desarrollador de Aplicaciones Multiplataforma",
+  "profileImage": "assets/images/profile.png",
+  "summary": "Estudiante de CFGS en Desarrollo de Aplicaciones Multiplataforma con pasión por la tecnología y el desarrollo de software. Experto en múltiples lenguajes y frameworks, con habilidades en trabajo en equipo, resolución de problemas y comunicación efectiva.",
+  "education": [
+    {
+      "degree": "CFGS Desarrollo de Aplicaciones Multiplataforma",
+      "institution": "IES Serra Perenxisa, Torrent - Valencia",
+      "period": "2023 - 2025"
+    },
+    {
+      "degree": "Bachillerato Tecnológico",
+      "institution": "IES Serra Perenxisa, Torrent",
+      "period": "2021 - 2023"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Desarrollador Junior (Prácticas)",
+      "company": "TechSolutions SL",
+      "period": "Jun 2024 - Sep 2024",
+      "description": "Desarrollo de una app móvil en Flutter para gestión de inventarios. Implementación de APIs REST y testing unitario."
+    },
+    {
+      "position": "Colaborador en Proyecto Open Source",
+      "company": "GitHub Community",
+      "period": "Ene 2024 - May 2024",
+      "description": "Contribución a un proyecto de app web en React. Corrección de bugs y optimización de componentes."
+    }
+  ],
+  "technicalSkills": [
+    "Flutter/Dart",
+    "React",
+    "Node.js",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Java",
+    "Kotlin",
+    "Swift",
+    "SQL",
+    "Firebase",
+    "MongoDB",
+    "REST APIs",
+    "GraphQL",
+    "Docker",
+    "Git",
+    "CI/CD",
+    "Unit Testing",
+    "Agile/Scrum"
+  ],
+  "softSkills": [
+    "Trabajo en equipo",
+    "Resolución de problemas",
+    "Comunicación efectiva",
+    "Adaptabilidad",
+    "Gestión del tiempo",
+    "Pensamiento crítico"
+  ],
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Valenciano",
+      "level": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "level": "C1 - Avanzado"
+    }
+  ],
+  "email": "juan.perez@correofalso.com",
+  "phone": "+34 123 456 789"
+}
